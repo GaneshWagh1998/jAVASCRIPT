@@ -31,16 +31,31 @@
 
 //for each
 
-const array= ['abc','abn','abcx','adfgx'];
+const array1= ['abc','abn','abcx','adfgx'];
 // 
 // array.forEach(element => {
 //     console.log(element);
     
 // });
 
-const newnum = array.filter((item)=>{
-  return item
-})
+// const newnum = array.filter((item)=>{
+//   return item
+// })
 
 
-console.log(newnum);
+// console.log(newnum);
+
+const array= ['abc','abn','abcx','adfgx'];
+const it= " ";
+
+const swit = array.reduce((acc, item)=>{
+
+    return acc + item
+
+
+} ,it)
+
+console.log(swit);
+
+
+
